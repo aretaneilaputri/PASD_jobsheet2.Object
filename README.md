@@ -55,5 +55,13 @@ Jawab: Mahasiswa(String nama, String nim, double ipk, String kelas) {
     Mahasiswa02 mhs2 =new Mahasiswa02("Annisa Nabila","2141720160", 3.25,"TI 2L");
 Jawab : Baris program tersebut digunakan untuk membuat objek baru bernama mhs2 dari class Mahasiswa. Pada saat objek dibuat, nilai atribut seperti nama, nim, ipk, dan kelas langsung diisi melalui konstruktor berparameter.
 Dengan begitu, objek sudah memiliki data tanpa perlu mengisi atribut satu per satu.
+3.	Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+Jawab: Jika konstruktor default dihapus sementara pada program masih terdapat kode:
+	Mahasiswa mhs1 = new Mahasiswa();
+maka program akan mengalami error saat proses compile. Hal ini terjadi karena Java tidak menemukan konstruktor tanpa parameter yang digunakan untuk membuat objek tersebut.
+4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!
+Jawab: Tidak harus. Method dapat dipanggil sesuai kebutuhan program. Selama objek sudah dibuat, method apa pun bisa dipanggil kapan saja dan tidak harus mengikuti urutan tertentu.
+
+
 
         
