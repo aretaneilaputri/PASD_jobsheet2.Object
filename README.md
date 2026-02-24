@@ -30,7 +30,7 @@ Logikanya seperti ini:
 •	IPK < 2.5 -> Kurang
 Method ini akan mengembalikan nilai berupa teks (String) yang menunjukkan kategori kinerja mahasiswa.
 
-Pertanyaan Percobaan 1
+Pertanyaan Percobaan 2
 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
 Jawab: Baris kode yang digunakan untuk membuat objek adalah:
 	Mahasiswa02 mhs1 = new Mahasiswa02();
@@ -42,3 +42,18 @@ Jawab: Atribut dan method dapat diakses menggunakan nama objek diikuti tanda tit
     mhs1.tampilkanInformasi();
 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
 Jawab: Output yang dihasilkan berbeda karena sebelum pemanggilan method yang kedua dilakukan perubahan data pada objek. Perubahan tersebut dilakukan menggunakan method ubahKelas() dan updateIpk(). Setelah data pada objek berubah, ketika method tampilkanInformasi() dipanggil kembali maka informasi yang ditampilkan juga ikut berubah sesuai dengan data terbaru.
+
+Pertanyaan Percobaan 3
+1.	Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
+Jawab: Mahasiswa(String nama, String nim, double ipk, String kelas) {
+    this.nama = nama;
+    this.nim = nim;
+    this.ipk = ipk;
+    this.kelas = kelas;
+}       
+2.	Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
+    Mahasiswa02 mhs2 =new Mahasiswa02("Annisa Nabila","2141720160", 3.25,"TI 2L");
+Jawab : Baris program tersebut digunakan untuk membuat objek baru bernama mhs2 dari class Mahasiswa. Pada saat objek dibuat, nilai atribut seperti nama, nim, ipk, dan kelas langsung diisi melalui konstruktor berparameter.
+Dengan begitu, objek sudah memiliki data tanpa perlu mengisi atribut satu per satu.
+
+        
