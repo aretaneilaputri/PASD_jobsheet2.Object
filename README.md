@@ -29,3 +29,16 @@ Logikanya seperti ini:
 •	IPK ≥ 2.5 -> Cukup
 •	IPK < 2.5 -> Kurang
 Method ini akan mengembalikan nilai berupa teks (String) yang menunjukkan kategori kinerja mahasiswa.
+
+Pertanyaan Percobaan 1
+1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+Jawab: Baris kode yang digunakan untuk membuat objek adalah:
+	Mahasiswa02 mhs1 = new Mahasiswa02();
+Pada baris tersebut dilakukan proses instansiasi dari class Mahasiswa02.
+Nama objek yang dihasilkan adalah mhs1. Objek ini nantinya digunakan untuk mengakses atribut dan method yang ada di dalam class Mahasiswa.
+2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+Jawab: Atribut dan method dapat diakses menggunakan nama objek diikuti tanda titik (.).
+	mhs1.nama = "Muhammad Ali Farhan";
+    mhs1.tampilkanInformasi();
+3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+Jawab: Output yang dihasilkan berbeda karena sebelum pemanggilan method yang kedua dilakukan perubahan data pada objek. Perubahan tersebut dilakukan menggunakan method ubahKelas() dan updateIpk(). Setelah data pada objek berubah, ketika method tampilkanInformasi() dipanggil kembali maka informasi yang ditampilkan juga ikut berubah sesuai dengan data terbaru.
