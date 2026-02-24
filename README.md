@@ -7,3 +7,11 @@ Atribut(data/field)
 Digunakan untuk menyimpan informasi atau keadaan dari objek.
 Method(perilaku/function)
 Digunakan untuk menjalankan aksi atau operasi terhadap objek tersebut.
+2	Perhatikan class Mahasiswa pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Mahasiswa? Sebutkan apa saja atributnya!
+Jawab : Ada 4 atribut, yaitu:
+        nim
+        nama
+    	kelas
+        ipk
+
+P
